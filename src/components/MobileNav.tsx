@@ -20,7 +20,6 @@ const MobileNav = () => {
     await loginWithRedirect({
       async openUrl(url) {
         console.log(url);
-
         // Redirect using Capacitor's Browser plugin
         await Browser.open({
           url,

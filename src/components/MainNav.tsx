@@ -11,6 +11,8 @@ const MainNav = () => {
   const cart = useAppSelector((state) => state.cart.items);
   const navigate = useNavigate();
 
+  const logIn = async () => {};
+
   return (
     <div className="flex space-x-2 items-center">
       <Link
@@ -36,7 +38,7 @@ const MainNav = () => {
             <Button
               variant="ghost"
               className="font-bold hover:text-orange-500 hover:bg-white"
-              onClick={async () => await loginWithRedirect()}
+              onClick={logIn}
             >
               Log In
             </Button>

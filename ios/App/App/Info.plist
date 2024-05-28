@@ -27,8 +27,12 @@
 			<string>com.example.app</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>myfood</string>
+				<string>com.example.app</string>
 			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>

@@ -53,7 +53,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
       authorizationParams={{
         redirect_uri: redirectUri,
       }}
-      // onRedirectCallback={onRedirectCallback}
+      onRedirectCallback={onRedirectCallback}
     >
       {children}
     </Auth0Provider>

@@ -13,20 +13,20 @@ const config: CapacitorConfig = {
       enabled: true,
     },
 
-    CapacitorApp: {
-      deepLinks: [
-        {
-          scheme: "myfood",
-          hostname: "auth",
-          path: "/callback",
-        },
-      ],
-    },
-    CapacitorBrowser: {
-      iosScheme: "myfood",
-      androidScheme: "myfood",
-      androidPackage: "com.example.app", // Update with your Android package name
-    },
+    //   CapacitorApp: {
+    //     deepLinks: [
+    //       {
+    //         scheme: "com.example.app",
+    //         hostname: "auth",
+    //         path: "/callback",
+    //       },
+    //     ],
+    //   },
+    //   CapacitorBrowser: {
+    //     iosScheme: "com.example.app",
+    //     androidScheme: "com.example.app",
+    //     androidPackage: "com.example.app", // Update with your Android package name
+    //   },
   },
 };
 
